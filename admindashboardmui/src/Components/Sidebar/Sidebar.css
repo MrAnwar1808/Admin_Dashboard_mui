@@ -1,0 +1,23 @@
+
+
+.sidebar {
+
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+  }
+  
+  .sidebar .MuiDrawer-paper {
+    width: 240px;
+  }
+  
+  .sidebar .MuiListItem-root:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar-icon {
+    color: #333;
+  }
+  

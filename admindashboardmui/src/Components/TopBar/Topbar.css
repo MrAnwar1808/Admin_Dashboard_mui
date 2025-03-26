@@ -1,0 +1,58 @@
+
+
+.navbar {
+    background: linear-gradient(to right, #ffffff, #e03d3d) !important; 
+    color: white; 
+    padding: 10px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .Toolbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+ 
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+
+  .menu-icon {
+    color: white;
+  }
+
+  
+  
+ 
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+
+ 
+  
+ 
+  .profile-icon {
+    color: white;
+  }
+  
+ 
+  .MuiMenu-paper {
+    background-color: white;
+    color: black;
+  }
+  
+  .MuiMenuItem-root:hover {
+    background-color: #f0f0f0;
+  }
+  

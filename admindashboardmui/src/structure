@@ -1,0 +1,21 @@
+
+
+src/
+├── Components/                // Reusable UI components
+│   ├── Sidebar/               // Sidebar navigation
+│   ├── TopBar/                // TopBar with user profile, notifications
+│   ├── Widgets/               // Small data widgets for display
+│   ├── Charts/                // Chart components (bar, pie, line)
+│   ├── ProgressBars/          // Linear and Circular ProgressBars
+│   ├── DataTable/             // Table component for tabular data
+│   └── Forms/                 // User Management forms (add/edit user)
+├── Pages/                     // Separate pages for dashboard sections
+│   ├── Dashboard/             // Main dashboard page
+│   ├── Users/                 // User management page
+│   ├── Reports/               // Reports and insights page
+│   └── Settings/              // App settings page
+├── Contexts/                  // Context API for state management
+│   └── DashboardContext.js    // Dashboard-wide global state
+├── Services/                  // API calls (Axios/Fetch for backend data)
+├── App.js                     // Main entry point with React Router
+└── index.js                   // React application entry
